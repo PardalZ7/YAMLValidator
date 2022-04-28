@@ -1,0 +1,13 @@
+service:
+  name: name
+  api:
+    git: some:git
+  functions:
+    - name: nomeOne
+      git: someGit
+      memoryInMbs: 1
+      gpu: 1
+    - name: nameTwo
+      git: some:git
+      memoryInMbs: 1
+      cpu: 1
